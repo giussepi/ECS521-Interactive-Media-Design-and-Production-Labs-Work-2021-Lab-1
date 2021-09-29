@@ -1,0 +1,31 @@
+window.addEventListener('load', function() {
+    // write your code here
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+    class Ball {
+	constructor() {
+            this.x = 100;
+            this.y = 100;
+            this.vx = 5;
+            this.vy = 2;
+            this.radius = 25;
+            this.colour = 'blue';
+	}
+
+	draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
+            ctx.closePath();
+            ctx.fillStyle = this.colour;
+            ctx.fill();
+	}
+    }
+
+    ball = new Ball();
+
+    // Replace the next line with the function drawBall()
+    ball.draw();
+
+});
