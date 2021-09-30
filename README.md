@@ -153,7 +153,7 @@ Late submissions will receive late penalties in line with the late penalty polic
 
 ### Specific Instructions:
 1. Total No. of Questions: 05 (Canvas and JavaScript: 03 + SVG and JavaScript: 02)
-2. To get half marks in Canvas and JavaScript section, your code should be fully functional for atleast Question No. 1 and 2.
-3. To get half marks in SVG and JavaScript section, your code should be fully functional for atleast moving in right and left direction.
+2. To get half marks in Canvas and JavaScript section, your code should be fully functional for at least Question No. 1 and 2.
+3. To get half marks in SVG and JavaScript section, your code should be fully functional for at least moving in right and left direction.
 
 ## Good Luck!
