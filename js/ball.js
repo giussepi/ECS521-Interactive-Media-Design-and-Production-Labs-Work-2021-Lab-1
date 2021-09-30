@@ -1,5 +1,4 @@
 window.addEventListener('load', function() {
-    // write your code here
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
 
@@ -25,7 +24,32 @@ window.addEventListener('load', function() {
 
     ball = new Ball();
 
+    // write your code here
+
     // Replace the next line with the function drawBall()
     ball.draw();
+
+    // TODO: Question 1
+    function horizontalMove(){
+    	// write some code here based on drawBall
+    }
+    // horizontalMove();
+
+    // TODO: Question 2
+    const verticalMove = function() {
+    	// write some code here based on drawBall
+    };
+    // verticalMove();
+
+
+    // TODO: Question 3
+    // initial directions (you can or cannot use these variables)
+    let xDirection = 'right';
+    let yDirection = 'down';
+
+    const moveInsideCanvas = function() {
+	// write some code here based on horizontalMove and verticalMove functions
+    };
+    // moveInsideCanvas();
 
 });

@@ -6,6 +6,7 @@ window.addEventListener('load', function() {
     }
 
     var x = parseFloat(svg.getAttributeNS(null, 'x'));
+    // Add some code here
 
     function setSelectedColour(evt) {
 	var target = evt.target;
@@ -29,7 +30,10 @@ window.addEventListener('load', function() {
 	else if (evt.keyCode == 0) {
 	    x -= 20;
 	}
-	// you need to modify the following line to make it work with the y axis too
+
+	// Add some code heree
+
+	// You need to modify the following line to make it work with the y axis too
 	svg.setAttributeNS(null, 'transform', 'translate(' + x + ', 0)');
     }
 
