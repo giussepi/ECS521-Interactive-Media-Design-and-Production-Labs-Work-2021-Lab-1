@@ -116,7 +116,9 @@ _Animation_
 1. Make the ball move only on horizontal direction.
 2. Make the ball move only on vertical direction.
 3. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values. One option is shown below:
+
    <img src="imgs/ball.gif" />
+
 #### SVG and JavaScript
 
 1. Open `html/ToDo.html` with your text editor.
