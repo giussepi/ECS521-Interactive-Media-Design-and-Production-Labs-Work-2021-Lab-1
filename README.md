@@ -106,7 +106,7 @@ _Animation_
     function drawBall(){
       ball.x += ball.vx;
       ball.y += ball.vy;
-      ball.draw()
+      ball.draw();
       window.requestAnimationFrame(drawBall);
     }
     drawBall();
