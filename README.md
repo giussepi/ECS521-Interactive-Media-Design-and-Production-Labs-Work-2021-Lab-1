@@ -115,7 +115,10 @@ _Animation_
 **_Questions:_**
 1. Make the ball move only on horizontal direction.
 2. Make the ball move only on vertical direction.
-3. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values. One option is shown below:
+3. keep the ball moving inside the canvas.
+   _Hints_:
+   1. Use `if` conditions to check `ball.x` and `ball.y` values.
+   2. Update `ball.x` and `ball.y` values  based on the ball direction (e.g. right, down, left, up)
 
    <img src="imgs/ball.gif" />
 
@@ -128,8 +131,12 @@ _Animation_
    to the place marked in the `html/Todo.html` file. Save changes and refresh your
    browser.
 
-**Note**:
-Examine the JavaScript code at `js/stick.js`. It connects two functions to mouse-events, in relation to an SVG object called `stick_figure`. Add the id attribute to `<svg>` tag, so that it reads `id="stick_figure"`. Try moving the mouse over your drawing. Add the properties `x=0 y=0` to `<svg>` tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. <br/>
+**Notes**:
+1. Examine the JavaScript code at `js/stick.js`. It connects two functions to mouse-events, in relation to an SVG object called `stick_figure`.
+2. Add the `id` attribute to the `<svg>` tag, so that it reads `id="stick_figure"`. Reload the page.
+3. Try moving the mouse over your drawing.
+4. Add the properties `x=0 y=0` to `<svg>` tag. Reload the page.
+5. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function.
 
 **_Questions:_**
 1. Move the stick figure by using the right, left arrow keys.
