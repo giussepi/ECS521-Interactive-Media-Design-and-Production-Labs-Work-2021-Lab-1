@@ -10,7 +10,7 @@
 ### About this Lab
 This lab includes basis of Canvas, SVG, Interaction and Animations.
 
-Make sure to disable the browser cache to avoid issues with the JavaScript. (e.g. In Google Chrome, open the development tools using  `Ctrl + Shift + i`, then click settings and tick "Disable cache (while DevTools is open)").
+Make sure to disable the browser cache to avoid issues with caching the JavaScript and CSS files. (e.g. In Google Chrome, open the development tools using  `Ctrl + Shift + i`, then click settings and tick "Disable cache (while DevTools is open)").
 
 ### A. Canvas and JavaScript
 
